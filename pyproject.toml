@@ -6,7 +6,7 @@ authors = ["PhyAMR"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 sounddevice = "^0.5.1"
 numpy = "^2.1.3"
 scipy = "^1.14.1"
@@ -16,7 +16,15 @@ speechrecognition = "^3.11.0"
 opencv-python = "^4.10.0.84"
 pyyaml = "^6.0.2"
 ollama = "^0.3.3"
+chroma-haystack = "^1.0.0"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+torchaudio = "^2.5.1"
 haystack-ai = "^2.7.0"
+markdown-it-py = "^3.0.0"
+mdit-plain = "^1.0.1"
+pypdf = "^5.1.0"
+sentence-transformers = ">=3.0.0"
 
 
 [build-system]
